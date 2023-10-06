@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Login.scss'
 import { Box, TextField, Button } from '@mui/material'
-import { useNavigate } from 'react-router-dom'
 import { UserContext } from '../../context/UserContext'
 import { validatePassword } from '../CommonFunctions/CommonFunction'
 
@@ -15,7 +14,6 @@ export default function Login() {
             if (validatePassword(password)) {
                 localStorage.setItem('user', userName)
                 setUser(userName)
-
             }
         } else {
             console.log('user', user)

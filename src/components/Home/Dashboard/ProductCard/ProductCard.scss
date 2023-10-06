@@ -1,0 +1,21 @@
+.product-card-component{
+    height: 20rem;
+    width: 15rem;
+    padding: 0.1rem;
+    background-color: rgb(214, 214, 214);
+    border-radius: 1rem;
+
+    .product-image{
+        height: 50%;
+        width: calc(99% - 0.1rem);
+    }
+
+    .product-details{
+
+        .name-price{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}

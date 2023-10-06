@@ -1,5 +1,5 @@
 export function handleLogout(setUser) {
-    localStorage.removeItem("user");
+    localStorage.removeItem('user')
     setUser(null)
 }
 
