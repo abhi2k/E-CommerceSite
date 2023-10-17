@@ -1,8 +1,30 @@
-.dashboard-component{
+.dashboard-component {
     height: 100%;
     width: calc(100% - 10rem);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
     overflow-y: auto;
+
+    .search-section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 4rem;
+        width: 100%;
+        .search-text-field{
+            height:3rem;
+            width: 30rem;
+            border-radius: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .search-text-field::placeholder{
+            color: grey;
+            font-size: 1rem;
+        }
+    }
+
+    .content-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }
