@@ -1,0 +1,44 @@
+.dashboard-component-expand {
+  width: calc(100% - 10rem);
+}
+.dashboard-component-collapse {
+  width: calc(100% - 4rem);
+}
+.dashboard-component-expand,
+.dashboard-component-collapse {
+  height: 100%;
+  background: #000102de;
+  overflow-y: auto;
+
+  .search-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    .search-text-field {
+      height: 2.6rem;
+      width: 30rem;
+      border-radius: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    .search-text-field::placeholder {
+      color: grey;
+      font-size: 1rem;
+    }
+  }
+
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  .content-section > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}

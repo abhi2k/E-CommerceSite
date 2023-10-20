@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "./Login.scss";
 import { Box, TextField, Button } from "@mui/material";
 import { UserContext } from "../../context/UserContext";
-import { validatePassword } from "../CommonFunctions/CommonFunction";
+import { validatePassword } from "../../components/CommonFunctions/CommonFunction";
 
 export default function Login() {
   const [userName, setUserName] = useState("");

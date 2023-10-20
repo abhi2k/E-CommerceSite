@@ -155,7 +155,7 @@ export const productsData = [
   },
   {
     name: "Dyson V11 Cordless Vacuum Cleaner",
-    img: "https://example.com/product_images/dyson-v11-vacuum.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnastAzFT4-dxHIrJ2NaqXS-Wem7JYBMA1VQ&usqp=CAU",
     category: "Appliances",
     price: 399.99,
     rating: 4.8,
@@ -169,7 +169,7 @@ export const productsData = [
   },
   {
     name: "Oversized Sectional Sofa",
-    img: "https://example.com/product_images/oversized-sofa.jpg",
+    img: "https://images.thdstatic.com/productImages/b8b8dee7-8b52-46a9-ad5f-5198c9051a14/svn/dark-gray-magic-home-sectional-sofas-cs-gt000262aae-64_600.jpg",
     category: "Furniture",
     price: 899.99,
     rating: 4.6,
@@ -183,7 +183,7 @@ export const productsData = [
   },
   {
     name: "Canon EOS Rebel T7i DSLR Camera",
-    img: "https://example.com/product_images/canon-eos-rebel-t7i.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvwlHAeKhi0Nwwn_79ZZIjD9o-1P4n_5ODSg&usqp=CAU",
     category: "Electronics",
     price: 699.99,
     rating: 4.4,
@@ -197,7 +197,7 @@ export const productsData = [
   },
   {
     name: "Calvin Klein Women's Crossbody Bag",
-    img: "https://example.com/product_images/calvin-klein-crossbody-bag.jpg",
+    img: "https://media.darveys.com/catalog/product/3/0/30-lot7185_1.jpg",
     category: "Clothing",
     price: 69.99,
     rating: 4.1,
@@ -211,7 +211,7 @@ export const productsData = [
   },
   {
     name: "LG 65-Inch OLED 4K TV",
-    img: "https://example.com/product_images/lg-oled-tv.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUrqs6ZGYRXb43i59PmTsFa5NXyt5_28RFg&usqp=CAU",
     category: "Electronics",
     price: 1599.99,
     rating: 4.9,
@@ -225,7 +225,7 @@ export const productsData = [
   },
   {
     name: "Bosch Front-Load Washing Machine",
-    img: "https://example.com/product_images/bosch-washing-machine.jpg",
+    img: "https://i.gadgets360cdn.com/products/front-load-washing-machine-wak24168in-large-13652-10556-1584363573.jpeg?downsize=*:360",
     category: "Appliances",
     price: 899.99,
     rating: 4.6,
@@ -239,7 +239,7 @@ export const productsData = [
   },
   {
     name: "Puma Men's Running Shoes",
-    img: "https://example.com/product_images/puma-running-shoes.jpg",
+    img: "https://www.jiomart.com/images/product/original/rvsgkfvbcr/puma-men-s-radcliff-puma-black-sports-running-shoe-product-images-rvsgkfvbcr-0-202210212017.jpg?im=Resize=(500,630)",
     category: "Clothing",
     price: 89.99,
     rating: 4.3,
@@ -253,7 +253,7 @@ export const productsData = [
   },
   {
     name: "Xbox Series X Gaming Console",
-    img: "https://example.com/product_images/xbox-series-x.jpg",
+    img: "https://5.imimg.com/data5/SELLER/Default/2022/9/YT/AK/PW/159006294/microsoft-xbox-series-x-1tb-video-game-console-black.jpg",
     category: "Electronics",
     price: 499.99,
     rating: 4.7,
@@ -266,7 +266,7 @@ export const productsData = [
   },
   {
     name: "Whirlpool Dishwasher",
-    img: "https://example.com/product_images/whirlpool-dishwasher.jpg",
+    img: "https://5.imimg.com/data5/CA/IL/MY-29256728/whirlpool-wfo3o33-dlx-in-49-kg-powerclean-pro-500x500.jpg",
     category: "Appliances",
     price: 599.99,
     rating: 4.5,
@@ -279,7 +279,7 @@ export const productsData = [
   },
   {
     name: "Adidas Ultraboost Running Shoes",
-    img: "https://example.com/product_images/adidas-ultraboost.jpg",
+    img: "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/c9045494c79b4daca8ad306c22565cdf_9366/ultraboost-light-23-shoes.jpg",
     category: "Clothing",
     price: 169.99,
     rating: 4.6,
@@ -293,7 +293,7 @@ export const productsData = [
   },
   {
     name: "Sony Noise-Canceling Headphones",
-    img: "https://example.com/product_images/sony-noise-cancelling-headphones.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4JrWoSh92gMrl5CbLd_-9cw6Ty-T-VkiWYQ&usqp=CAU",
     category: "Electronics",
     price: 249.99,
     rating: 4.8,
@@ -307,7 +307,7 @@ export const productsData = [
   },
   {
     name: "IKEA Hemnes Dresser",
-    img: "https://example.com/product_images/ikea-hemnes-dresser.jpg",
+    img: "https://www.vivandtimhome.com/wp-content/uploads/2021/07/ikea-hemnes-dresser-4.jpg",
     category: "Furniture",
     price: 249.99,
     rating: 4.4,
@@ -321,7 +321,7 @@ export const productsData = [
   },
   {
     name: "LG 75-Inch NanoCell 8K TV",
-    img: "https://example.com/product_images/lg-nanocell-tv.jpg",
+    img: "https://www.lg.com/eastafrica/images/tvs/md07537767/gallery/TV-QNED-75-QNED95-A-Gallery-D01.jpg",
     category: "Electronics",
     price: 2499.99,
     rating: 4.7,
@@ -335,7 +335,7 @@ export const productsData = [
   },
   {
     name: "Cuisinart 12-Cup Coffee Maker",
-    img: "https://example.com/product_images/cuisinart-coffee-maker.jpg",
+    img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1626/1626072cv11d.jpg",
     category: "Appliances",
     price: 69.99,
     rating: 4.3,
@@ -349,7 +349,7 @@ export const productsData = [
   },
   {
     name: "North Face Waterproof Jacket",
-    img: "https://example.com/product_images/north-face-jacket.jpg",
+    img: "https://m.media-amazon.com/images/I/61FppEa-9AL.jpg",
     category: "Clothing",
     price: 149.99,
     rating: 4.2,
@@ -363,7 +363,7 @@ export const productsData = [
   },
   {
     name: "Breville Smart Oven Air Fryer",
-    img: "https://example.com/product_images/breville-air-fryer.jpg",
+    img: "https://assets.wsimgs.com/wsimgs/rk/images/dp/wcm/202342/0024/breville-joule-oven-air-fryer-pro-o.jpg",
     category: "Appliances",
     price: 299.99,
     rating: 4.8,
@@ -377,7 +377,7 @@ export const productsData = [
   },
   {
     name: "Ray-Ban Aviator Sunglasses",
-    img: "https://example.com/product_images/ray-ban-sunglasses.jpg",
+    img: "https://india.ray-ban.com/media/catalog/product/0/r/0rb30259196s262_1.jpg",
     category: "Clothing",
     price: 129.99,
     rating: 4.5,

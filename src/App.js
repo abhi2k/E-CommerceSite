@@ -1,12 +1,15 @@
-import './App.css';
-import RoutesComponent from './routescomponent';
-import { UserContextProvider } from './context/UserContext';
+import "./App.css";
+import RoutesComponent from "./routescomponent";
+import { UserContextProvider } from "./context/UserContext";
+import { NavContextProvider } from "./context/NavContext";
 
 function App() {
   return (
     <div className="App">
       <UserContextProvider>
-        <RoutesComponent />
+        <NavContextProvider>
+          <RoutesComponent />
+        </NavContextProvider>
       </UserContextProvider>
     </div>
   );

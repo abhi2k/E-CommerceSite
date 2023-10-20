@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.scss";
-import { productsData } from "../../CommonFunctions/productData";
-import { filterData } from "../../CommonFunctions/CommonFunction";
-import ProductCard from "./ProductCard/ProductCard";
+import { productsData } from "../CommonFunctions/productData";
+import { filterData } from "../CommonFunctions/CommonFunction";
+import ProductCard from "../ProductCard/ProductCard";
+import { useContext } from "react";
+import { NavContext } from "../../context/NavContext";
 
 export default function Dashboard() {
+  const { expand } = useContext(NavContext);
   const [searchText, setSearchText] = useState("");
   const [searchResults, setSearchResults] = useState(productsData);
 
@@ -17,7 +20,11 @@ export default function Dashboard() {
   }, [searchText]);
 
   return (
-    <div className="dashboard-component">
+    <div
+      className={
+        expand ? "dashboard-component-expand" : "dashboard-component-collapse"
+      }
+    >
       <div className="search-section">
         <input
           type="text"

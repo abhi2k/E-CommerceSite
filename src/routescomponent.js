@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import LoginComponent from './components/LoginComponent/LoginComponent'
-import Home from './components/Home/Home'
+import LoginComponent from './pages/Login/LoginComponent'
+import Home from './pages/Home/Home'
 import { UserContext } from './context/UserContext'
 
 export default function Dashboard() {
