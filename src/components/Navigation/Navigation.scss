@@ -1,8 +1,10 @@
 .navigation-component-expand {
   width: 10rem;
+  transition: width 0.5s;
 }
 .navigation-component-collapse {
   width: 4rem;
+  transition: width 0.5s;
 }
 .navigation-component-expand,
 .navigation-component-collapse {

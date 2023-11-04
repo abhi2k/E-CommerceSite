@@ -6,7 +6,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import { useContext } from "react";
 import { NavContext } from "../../context/NavContext";
 
-export default function Dashboard() {
+export default function Dashboard({contentRef}) {
   const { expand } = useContext(NavContext);
   const [searchText, setSearchText] = useState("");
   const [searchResults, setSearchResults] = useState(productsData);
@@ -20,7 +20,7 @@ export default function Dashboard() {
   }, [searchText]);
 
   return (
-    <div
+    <div ref={contentRef}
       className={
         expand ? "dashboard-component-expand" : "dashboard-component-collapse"
       }

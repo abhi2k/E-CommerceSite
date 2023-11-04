@@ -41,3 +41,16 @@ export function filterData(arr, value) {
     return nameMatch || categoryMatch;
   });
 }
+
+export function filterProducts(arr, value) {
+  const resultArr = arr.filter((obj) => {
+    if(obj.id===value){
+      return true;
+    }else{
+      return false;
+    }
+  });
+  if(resultArr.length>=1){
+    return resultArr[0]
+  }
+}
